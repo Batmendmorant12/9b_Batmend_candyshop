@@ -11,13 +11,13 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color:cyan
+    background-color:white
 }
 .head{
     width: 100%;
     height: 10%;
     display: flex;
-    background-color: rgb(234, 238, 211);
+    background-color:orange
 }
 
 .mid{
@@ -46,14 +46,6 @@ p{
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.log{
-    width: 10%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: under-around;
-    align-items: center;
 }
 .home{
     width: 10%;
@@ -97,6 +89,13 @@ p{
     align-items: center;
     justify-content: center;
 }
+.img{
+    width: 10%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .cart{
     width: 10%;
     height: 90%;
@@ -104,10 +103,10 @@ p{
     align-items: center;
     justify-content: center;
 }
-.settings{
+.login{
     width: 10%;
     height: 90%;
     display: flex;
     align-items: center;
     justify-content: center;
-}   
+}
